@@ -6,7 +6,7 @@
 SoftwareSerial gsm(RX,TX);
 
 int timeInterval = 10 ;
-String number = "9999999999";
+String number = "<Mobile Number Here>";
 String Grsp ;
 String gsmString ;
 String gsmLink ;

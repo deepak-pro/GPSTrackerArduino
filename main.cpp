@@ -92,8 +92,6 @@ void sendLocation(String link,int e){
   delay(timeInterval * 1000);
 }
 
-
-
 void loop() {
  if (stringComplete) {
        String signalType = inputString.substring(0,6);
@@ -169,7 +167,6 @@ void loop() {
         stringComplete = false;
     }
 }
-
 
 void serialEvent() {
     while (Serial.available()) {

@@ -29,3 +29,9 @@ This project is based on Arduino. Arduino is an open-source platform. It consist
 ### Demo of SMS received from tracker
 
 ![demo](assets/demo.png)
+
+
+
+### Conclusion
+
+The device gets latitude and longitude and sends the an SMS to the user. This message is a google link which shows the current location of the device. If the GPS module is not receiving the signals, the GSM module gets the location of the tower nearest to the device. It also calculates the speed of the device.

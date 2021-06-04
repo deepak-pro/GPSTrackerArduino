@@ -24,7 +24,7 @@ This project is based on Arduino. Arduino is an open-source platform. It consist
 
 ### Design
 
-![design](design.jpg)
+![design](assets/design.jpg)
 
 ### Demo of SMS received from tracker
 
